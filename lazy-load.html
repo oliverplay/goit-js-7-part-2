@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      .cards-list {
+        list-style: none;
+      }
+
+      .cards-item:not(:last-child) {
+        margin-bottom: 30px;
+      }
+
+      .cards-list img {
+        transform: translateX(-50%);
+        opacity: 0;
+        transition: transform 500ms linear, opacity 500ms linear;
+
+        width: 640px;
+        height: 480px;
+        object-fit: cover;
+      }
+
+      .cards-list img.appear {
+        transform: translateX(0);
+        opacity: 1;
+      }
+    </style>
+    <title>Document</title>
+  </head>
+  <body>
+    <ul class="cards-list">
+      <li class="cards-item">
+        <img
+          loading="lazy"
+          src="./images/img-1.jpg"
+          alt="neural-network"
+          width="640"
+          height="480"
+        />
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam quo distinctio ipsa
+          eligendi sapiente quia explicabo veniam. Sunt laboriosam consequuntur, at temporibus
+          reiciendis repellendus vitae eos a quo similique fugit ullam dolore deleniti quaerat
+          nostrum modi quasi, aut ipsum sapiente. Iure ea aperiam commodi dolor rerum ipsam nihil
+          similique est soluta odio? Eos blanditiis inventore voluptatem. Sapiente unde
+          exercitationem officia odit ea, nostrum voluptas necessitatibus eius commodi ullam non
+          nemo eum praesentium nesciunt dolore architecto quam ab accusamus explicabo at doloremque
+          harum. Magnam porro illo, deserunt a excepturi atque id eius nobis omnis voluptatem
+          temporibus doloribus, illum ipsum? Vero, ex?
+        </p>
+      </li>
+      <li class="cards-item">
+        <img loading="lazy" src="./images/img-2.jpg" alt="global-net" width="640" height="480" />
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore aliquam quisquam
+          molestias maiores, odit assumenda numquam dolorum. Quaerat quasi repellat blanditiis nobis
+          aperiam nesciunt laboriosam in maxime libero beatae fuga veniam, ex minima dicta
+          consectetur aut maiores magnam. Reiciendis accusamus necessitatibus amet voluptatibus
+          similique itaque, at reprehenderit corrupti dolore deserunt veniam ad, inventore commodi,
+          accusantium tenetur placeat corporis sint rerum odit ipsa esse ratione dignissimos.
+          Consequuntur beatae impedit provident nesciunt dicta illum reiciendis, necessitatibus
+          tempora repellat, et sunt dolorum, voluptas cumque perspiciatis harum exercitationem eos
+          deleniti dolores praesentium nisi nihil laborum ullam. Quod animi corrupti voluptatem
+          nesciunt quae nobis dolorem?
+        </p>
+      </li>
+      <li class="cards-item">
+        <img
+          loading="lazy"
+          src="./images/img-3.jpg"
+          alt="house-on-the-beach"
+          width="640"
+          height="480"
+        />
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est, earum! Voluptate, autem
+          impedit. A, quo blanditiis doloribus fugiat necessitatibus nesciunt vitae facilis
+          molestiae, eaque, mollitia veniam placeat dolorum iure aperiam non perferendis commodi!
+          Amet illum quibusdam maiores mollitia? Ut doloribus iste in ipsam asperiores consequatur
+          corrupti autem recusandae, ipsum illo eveniet eaque iure fugit quia blanditiis minima
+          porro saepe accusamus laboriosam iusto. Ab at earum temporibus dolorem sint? Libero a in
+          ab ratione, harum ut praesentium doloribus itaque atque. Autem distinctio porro voluptas,
+          tempora, velit culpa et quaerat mollitia iusto a cupiditate eaque ipsa? Eius odio eveniet
+          alias ipsa odit.
+        </p>
+      </li>
+      <li class="cards-item">
+        <img loading="lazy" src="./images/img-4.jpg" alt="tiger" width="640" height="480" />
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam praesentium, harum
+          voluptatem molestiae nemo doloremque ducimus at mollitia quo voluptates quia porro! Nulla
+          molestias veniam quod, doloremque, corporis perspiciatis rerum suscipit harum iste,
+          necessitatibus voluptas officia? Nulla laborum officia voluptatem odio quidem doloribus
+          aliquid saepe amet, consequuntur magnam excepturi at perspiciatis harum libero, esse ea
+          tenetur possimus non placeat odit sit tempore sint exercitationem minima? Explicabo
+          inventore voluptatum aliquam fuga autem eaque libero doloremque error? Officiis rerum
+          temporibus cumque, ipsam nobis at omnis autem consectetur consequuntur vitae soluta sed
+          dignissimos, possimus, tempora neque. Fuga distinctio nostrum dolorem deserunt ullam
+          soluta.
+        </p>
+      </li>
+      <li class="cards-item">
+        <img loading="lazy" src="./images/img-5.jpg" alt="sky" width="640" height="480" />
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur ad vel, repudiandae
+          suscipit neque recusandae, corrupti ipsum obcaecati, asperiores laudantium eius.
+          Repellendus, a dicta? Placeat explicabo reprehenderit, quibusdam voluptatibus, sed porro
+          corrupti possimus labore mollitia vitae, illo laboriosam magnam necessitatibus ex unde
+          recusandae qui? Accusamus sint accusantium eaque fugit. Unde officia atque est, eveniet
+          incidunt nostrum laborum dolore corporis impedit aliquam hic accusantium maiores ratione,
+          amet tempora eligendi excepturi nemo ad repudiandae provident sed ipsum necessitatibus
+          iusto ab! Molestiae voluptates nobis iste earum repellendus non accusantium eveniet veniam
+          dicta error, placeat, perspiciatis quas eaque facere ipsam reiciendis. Labore, rerum
+          magnam.
+        </p>
+      </li>
+      <li class="cards-item">
+        <img loading="lazy" src="./images/img-6.jpg" alt="field" width="640" height="480" />
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed nisi quam dignissimos
+          exercitationem, maxime error tempora inventore, dolores consequuntur consectetur
+          voluptates animi architecto facere eaque fugiat ipsum rem ab in voluptatem harum
+          similique. Illum quam nemo quidem odit cumque repellat at veniam, suscipit fugiat tempore,
+          omnis vitae perspiciatis eaque repellendus ex. Et nisi facere in voluptatum laborum
+          asperiores, error dignissimos alias natus at! Voluptatem repellendus nam ullam a. Magni
+          quae ex voluptatem ea minima? Dolorem neque fuga molestias itaque dolor cum dolorum odit
+          ratione, perspiciatis possimus numquam tempora iste fugiat esse quia qui veritatis
+          deleniti natus nobis enim officiis aliquid.
+        </p>
+      </li>
+      <li class="cards-item">
+        <img loading="lazy" src="./images/img-7.jpg" alt="bird" width="640" height="480" />
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde voluptates dolores explicabo
+          nulla eveniet voluptatum a iste ipsam soluta? Officia, amet molestiae! Saepe nulla qui nam
+          ex. Itaque possimus doloremque deserunt, assumenda porro cumque quia hic nobis alias odio
+          deleniti quas sapiente tenetur debitis delectus repudiandae ipsum pariatur nemo! Aperiam
+          dicta ad repudiandae iste, nisi aut eaque facere, possimus sequi omnis exercitationem
+          recusandae voluptatem non consectetur! Corrupti id saepe modi expedita autem ratione fugit
+          eius sed, laboriosam quod necessitatibus, sunt exercitationem consequatur labore sapiente
+          reprehenderit magnam cumque. Dolores deleniti nostrum temporibus cupiditate dolorum, qui
+          accusantium, eius totam illum corrupti velit.
+        </p>
+      </li>
+      <li class="cards-item">
+        <img loading="lazy" src="./images/img-8.jpg" alt="mountains" width="640" height="480" />
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus dolorem tempora iure
+          deserunt velit quasi nobis, porro, earum ullam itaque officia ut quam. Excepturi ipsa
+          quidem architecto ad in molestias a ea, fuga repellat vero facere suscipit earum culpa
+          distinctio voluptate, aliquam magnam voluptatibus mollitia aspernatur qui animi quod nemo
+          explicabo nulla. Aspernatur tempora repellat atque, provident aliquam ad ipsa ullam
+          numquam qui praesentium fugiat voluptatum sunt enim distinctio libero illo nemo placeat
+          saepe necessitatibus iusto consequatur! Veniam at recusandae voluptates autem modi fuga
+          necessitatibus architecto similique saepe, placeat odio maxime et iste, in repudiandae
+          perferendis illum. Quasi, corrupti consectetur.
+        </p>
+      </li>
+    </ul>
+
+    <script src="./js/lazy-load.js" type="module"></script>
+  </body>
+</html>
